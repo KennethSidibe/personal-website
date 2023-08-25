@@ -1,0 +1,94 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: .75rem;
+}
+
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.hero-title {
+  /* width: 110%; */
+  text-align: left;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: black;
+  line-height: .95;
+}
+
+.hero-btn-container {
+  display: flex;
+  width: 500px;
+}
+
+@media (max-width: 992px) { 
+  .hero-img-row {
+    order: 1;
+    margin-top: 5rem;
+  }
+  .hero-title {
+    text-align: center;
+  }
+  .hero-btn-container {
+    justify-content: center;
+  }
+  .companies-logo {
+    margin: 15px 0px;
+  }
+
+}
+
+.testimonial {
+  margin-top: 8rem;
+}
+
+
+.row-companies-logo {
+  /* display: flex; */
+  align-items: center;  /* Align vertically center */
+  justify-content: center; /* Align horizontally center, if you need */
+}
+
+.row-companies-logo > div {
+  margin: 0px 50px;
+}
+
+.the-next-web-logo {
+  width: 35%;
+}
+
+html, body {
+  height: 100%;
+}
+
